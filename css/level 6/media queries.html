@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: springgreen;
+        }
+        @media screen and(min-width:300px) {
+            .box{
+                background-color: lightcoral;
+            }
+            
+        }
+        .Box1{
+            height: 100px;
+            width: 100px;
+            background-color:lightsalmon;
+        }
+        @media screen and (min-width:300px) {
+            .Box1{
+                height: 150px;
+                width: 150px;
+            }
+            
+        }
+        .Box2{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(17, 122, 214);
+
+        }
+        @media screen and(max-width:250px) {
+            .Box2{
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">BOX</div>
+    <div class="Box1">BOX</div>
+    <div class="Box2">BOX</div>
+</body>
+</html>
